@@ -1,0 +1,10 @@
+LAYOUT(StartupLayout, 604, 348)
+	ITEM(Upp::Button, find, SetLabel(t_("Find")).LeftPosZ(140, 164).BottomPosZ(16, 32))
+	ITEM(Upp::Button, open, SetLabel(t_("Open")).RightPosZ(136, 164).BottomPosZ(16, 32))
+	ITEM(Upp::Button, settings, SetLabel(t_("Settings")).LeftPosZ(44, 52).TopPosZ(8, 44))
+	ITEM(Upp::Button, create, SetLabel(t_("Create project")).HSizePosZ(200, 200).TopPosZ(8, 44))
+END_LAYOUT
+
+LAYOUT(TDLLayout, 828, 472)
+END_LAYOUT
+

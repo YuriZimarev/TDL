@@ -1,0 +1,15 @@
+uses
+	CtrlLib;
+
+file
+	TDL.h,
+	main.h,
+	TDL.cpp,
+	main.cpp,
+	Startup.h,
+	Startup.cpp,
+	TDL.lay;
+
+mainconfig
+	"" = "GUI";
+
