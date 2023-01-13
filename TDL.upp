@@ -8,6 +8,12 @@ file
 	main.cpp,
 	Startup.h,
 	Startup.cpp,
+	Settings.h,
+	Settings.cpp,
+	Create.h,
+	Create.cpp,
+	Find.h,
+	Find.cpp,
 	TDL.lay;
 
 mainconfig

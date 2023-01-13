@@ -3,8 +3,28 @@ LAYOUT(StartupLayout, 604, 348)
 	ITEM(Upp::Button, open, SetLabel(t_("Open")).RightPosZ(136, 164).BottomPosZ(16, 32))
 	ITEM(Upp::Button, settings, SetLabel(t_("Settings")).LeftPosZ(44, 52).TopPosZ(8, 44))
 	ITEM(Upp::Button, create, SetLabel(t_("Create project")).HSizePosZ(200, 200).TopPosZ(8, 44))
+	ITEM(Upp::ArrayCtrl, projects, AutoHideSb(true).HSizePosZ(4, 0).VSizePosZ(56, 56))
 END_LAYOUT
 
 LAYOUT(TDLLayout, 828, 472)
+END_LAYOUT
+
+LAYOUT(FindMenu, 400, 200)
+	ITEM(Upp::Button, cancel, SetLabel(t_("Cancel")).LeftPosZ(88, 56).BottomPosZ(9, 15))
+	ITEM(Upp::Button, find, SetLabel(t_("Find")).RightPosZ(96, 56).BottomPosZ(9, 15))
+	ITEM(Upp::Label, labe, SetLabel(t_("Path to project folder")).HSizePosZ(144, 148).TopPosZ(60, 20))
+	ITEM(Upp::LineEdit, edit, HSizePosZ(38, 38).VSizePosZ(90, 90))
+END_LAYOUT
+
+LAYOUT(CreateMenu, 400, 200)
+	ITEM(Upp::Button, cancel, SetLabel(t_("Cancel")).LeftPosZ(112, 56).BottomPosZ(5, 15))
+	ITEM(Upp::Button, create, SetLabel(t_("Create")).RightPosZ(108, 56).BottomPosZ(5, 15))
+	ITEM(Upp::ArrayCtrl, templates, HSizePosZ(0, 0).VSizePosZ(0, 68))
+	ITEM(Upp::LabelBox, description, SetLabel(t_("Description")).HSizePosZ(0, 0).BottomPosZ(20, 44))
+END_LAYOUT
+
+LAYOUT(SettingsMenu, 400, 200)
+	ITEM(Upp::Button, cancel, SetLabel(t_("Cancel")).LeftPosZ(72, 100).BottomPosZ(9, 15))
+	ITEM(Upp::Button, apply, SetLabel(t_("Apply")).RightPosZ(68, 96).BottomPosZ(9, 15))
 END_LAYOUT
 

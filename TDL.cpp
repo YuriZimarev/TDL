@@ -5,3 +5,4 @@ TDL::TDL()
 	CtrlLayout(*this, "TitanDAW");
 	Title("TitanDAW").Zoomable().Sizeable().Maximize();
 }
+
