@@ -8,14 +8,14 @@ class TDL : public WithTDLLayout<TopWindow> {
 	delete this;
 }
 public:
-	void CommonMenu(Bar& bar);
-	void ProjectMenu(Bar& bar);
-	void EditMenu(Bar& bar);
-	void ViewMenu(Bar& bar);
-	void PageMenu(Bar& bar);
-	void HelpMenu(Bar& bar);
-	void SubCommonMenu(Bar& bar);
 	TDL();
+	void CommonMenu(Bar& bar);
+	void SubCommonMenu(Bar& bar);
+	void SubProjectMenu(Bar& bar);
+	void SubEditMenu(Bar& bar);
+	void SubViewMenu(Bar& bar);
+	void SubPageMenu(Bar& bar);
+	void SubHelpMenu(Bar& bar);
 };
 #endif
 /*
